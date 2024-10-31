@@ -7,19 +7,19 @@
 To run the dev server for your app, use:
 
 ```sh
-yarn dlx nx serve circles
+yarn nx serve circles
 ```
 
 To create a production bundle:
 
 ```sh
-yarn dlx nx build circles
+yarn nx build circles
 ```
 
 To see all available targets to run for a project, run:
 
 ```sh
-yarn dlx nx show project circles
+yarn nx show project circles
 ```
 
 These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
@@ -35,16 +35,16 @@ Use the plugin's generator to create new projects.
 To generate a new application, use:
 
 ```sh
-yarn dlx nx g @nx/nest:app demo
+yarn nx g @nx/nest:app demo
 ```
 
 To generate a new library, use:
 
 ```sh
-yarn dlx nx g @nx/node:lib mylib
+yarn nx g @nx/node:lib mylib
 ```
 
-You can use `yarn dlx nx list` to get a list of installed plugins. Then, run `yarn dlx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
+You can use `yarn nx list` to get a list of installed plugins. Then, run `yarn nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
 
 [Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 

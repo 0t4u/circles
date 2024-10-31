@@ -1,3 +1,4 @@
-const nxPreset = require('@nx/jest/preset').default;
+// @ts-check
+import nxPreset from '@nx/jest/preset';
 
-module.exports = { ...nxPreset };
+export default { ...nxPreset };

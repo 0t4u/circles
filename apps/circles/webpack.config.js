@@ -1,7 +1,8 @@
-const { NxAppWebpackPlugin } = require('@nx/webpack/app-plugin');
-const { join } = require('path');
+// @ts-check
+import { NxAppWebpackPlugin } from '@nx/webpack/app-plugin';
+import { join } from 'path';
 
-module.exports = {
+export default {
   output: {
     path: join(__dirname, '../../dist/apps/circles'),
   },
